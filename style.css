@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    background: url("./background.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    
+}
+
+header{
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 4rem 10rem;
+    position: relative;
+    text-transform: capitalize;
+   
+}
+
+header ul{
+    display: flex;
+    font-size:3rem;
+
+}
+header ul li{
+
+    margin-left: 4rem;
+    list-style: none;
+}
+
+header ul li:hover{
+    /* text-decoration:underline; */
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgba(255, 4, 4, 0.205);
+    height: 3.5rem;
+    border-radius: 6px;
+    padding:5px;
+    
+}
+
+header h1{
+    font-size: 4rem;
+    text-transform: uppercase   ;
+}
+.container{  
+    color: aliceblue;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+   
+}
+
+.container h1{
+    font-size: 5rem;
+}
+.sub-container{
+     
+    text-align: center;
+    width: 50%;
+    
+    
+}
+
+.btn-start, .info-btn
+{   font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: solid 2px white;
+    outline: none; 
+    background-color: rgb(198, 4, 223);
+    margin-top: 2rem ;
+    padding: 1rem 3.5rem;
+    text-transform: capitalize;
+    border-radius: 8px ;
+}
+
+.btn-start:hover{
+    background-color:rgb(173, 4, 195);
+    padding: 1.2rem 3.7rem;
+    font-size: 1.7rem;
+}
+.sub-container p{
+    font-size: 1.5rem;
+    
+}
+ /************************************************** 2nd page popup section */
+
+
+ .popup_info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50rem;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1rem 2.5rem;
+ }
+ .popup_info h2{
+    font-size: 5rem;
+    color: #c40094;
+    margin-bottom: 1rem;
+
+}
+
+.popup_info .info{
+    display: block;
+    font-size: 2rem;
+    color: #333;
+    font-weight: 500;
+    margin:4px 0;
+}
+.popup_info .btn-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    border-top: solid 1.5px black;
+}
+
+.exit-btn{
+    background-color: transparent;
+    color: #c40094;
+    border: solid #c40094 2px;
+    font-weight: 400;
+    padding: .8rem 3.5rem;
+}
+
+.exit-btn:hover{
+    background-color: #c40094;
+    color:#fff;
+
+}
+
+.continue-btn{
+    text-decoration: none;
+}
+
+.continue-btn:hover{
+    background-color: #ba068d;
+}
